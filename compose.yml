@@ -1,0 +1,8 @@
+---
+
+services:
+  kernel:
+    image: alpine-kernel-builder
+    build:
+      context: .
+      dockerfile: Dockerfile
