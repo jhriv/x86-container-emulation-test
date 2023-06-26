@@ -5,7 +5,13 @@ amd64 emulated architecture on an Apple M2 host
 
 ## Setup
 
+### Clone the repository
+
 `git clone https://github.com/jhriv/x86-container-emulation-test`
+
+### Pull the base image
+
+`DOCKER_DEFAULT_PLATFORM=linux/amd64 docker pull alpine:latest`
 
 ## Build the Container
 
